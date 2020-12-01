@@ -5,35 +5,81 @@ body
 .myLinks {
   border: 5px outset red;
   background-color: lightblue;    
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  font-family: "Times New Roman", "serif";
   text-align: center;
-  width: 300px;
+  padding: 5px;
+  float: left;
 }
 .myTableData {
   border: 5px outset red;
   background-color: lightblue;    
+  margin-top: 0px;
+  margin-bottom: 0;
+  margin-right: 0px;
+  margin-left: 0px;
+  font-family: "Times New Roman", "serif";
   text-align: center;
-  width: 400px;
+  height: auto;
+  width: auto;
+  padding: 5px;
+  float: left;
 }
-
 .overSkrift {
-  color: aqua;
-	margin-left: 20px;
-	font-family: 'Palatino Linotype', 'Century Schoolbook L'
+  border: 5px outset red;
+  background-color: lightblue;
+  color: black;
+  font-family: 'Palatino Linotype', 'Century Schoolbook L';
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 5px;
+  float: none;
 }
 .brodTekst {
-  color: aquamarine;
-	margin-left: 20px;
-	font-family: "Times New Roman", "serif"
+  color: black;
+  font-family: "Times New Roman", "serif";
+  background-color: lightblue;
+  width: 850px;
+  border: 5px outset red;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 5px;
+  float: left;
 }
 .bilde {
-	margin-left: 20px;
-	border:thick red;
-	width: 500px;
+  border:thick red;
+  width: 500px;
+  height: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 5px;
+  float: left
+}
+img{
+	width: 100%;
 	height: auto;
-	float: right;
 }
 .myContactInfo {
   border: 5px outset red;
   background-color: lightblue;    
-  width: 800px;
+  width: 400px;
+  height: 164px;
+  font-family: "Times New Roman", "serif";
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 5px;
+  float: left;
 }
