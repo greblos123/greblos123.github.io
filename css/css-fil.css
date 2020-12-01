@@ -1,0 +1,39 @@
+body 
+{
+  background-color: darkgrey;
+}
+.myLinks {
+  border: 5px outset red;
+  background-color: lightblue;    
+  text-align: center;
+  width: 300px;
+}
+.myTableData {
+  border: 5px outset red;
+  background-color: lightblue;    
+  text-align: center;
+  width: 400px;
+}
+
+.overSkrift {
+  color: aqua;
+	margin-left: 20px;
+	font-family: 'Palatino Linotype', 'Century Schoolbook L'
+}
+.brodTekst {
+  color: aquamarine;
+	margin-left: 20px;
+	font-family: "Times New Roman", "serif"
+}
+.bilde {
+	margin-left: 20px;
+	border:thick red;
+	width: 500px;
+	height: auto;
+	float: right;
+}
+.myContactInfo {
+  border: 5px outset red;
+  background-color: lightblue;    
+  width: 800px;
+}
