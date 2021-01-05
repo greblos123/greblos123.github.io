@@ -1,42 +1,42 @@
 body 
 {
-  background-color: darkgrey;
+  background-color: lightgray;
 }
 .myLinks {
   border: 5px outset red;
   background-color: lightblue;    
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-right: 0px;
-  margin-left: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
   font-family: "Times New Roman", "serif";
   text-align: center;
   padding: 5px;
-  float: left;
+  float: none;
 }
 .myTableData {
   border: 5px outset red;
   background-color: lightblue;    
-  margin-top: 0px;
-  margin-bottom: 0;
-  margin-right: 0px;
-  margin-left: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
   font-family: "Times New Roman", "serif";
   text-align: center;
   height: auto;
-  width: auto;
+  width: 400px;
   padding: 5px;
-  float: left;
+  float: none;
 }
 .overSkrift {
   border: 5px outset red;
   background-color: lightblue;
   color: black;
   font-family: 'Palatino Linotype', 'Century Schoolbook L';
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-right: 0px;
-  margin-left: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
   padding: 5px;
   float: none;
 }
@@ -52,7 +52,7 @@ body
   margin-right: 0px;
   margin-left: 0px;
   padding: 5px;
-  float: left;
+  float: none;
 }
 .bilde {
   border:thick red;
@@ -63,7 +63,7 @@ body
   margin-right: 0px;
   margin-left: 0px;
   padding: 5px;
-  float: left
+  float: right;
 }
 img{
 	width: 100%;
@@ -73,7 +73,7 @@ img{
   border: 5px outset red;
   background-color: lightblue;    
   width: 400px;
-  height: 164px;
+  height: auto;
   font-family: "Times New Roman", "serif";
   text-align: center;
   margin-top: 0px;
@@ -81,5 +81,5 @@ img{
   margin-right: 0px;
   margin-left: 0px;
   padding: 5px;
-  float: left;
+  float: none;
 }
