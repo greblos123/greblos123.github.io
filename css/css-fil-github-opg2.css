@@ -1,0 +1,15 @@
+.Roger {
+    box-shadow: 20px 5px 0px pink 
+}
+#Minecraft {
+    filter:saturate(50)
+}
+#Minecraft:active {
+    height: 100px
+}
+#Roblox {
+    filter: invert(100)
+}
+#Death_Stranding{
+    filter:sepia()
+}
