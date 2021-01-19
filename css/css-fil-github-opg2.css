@@ -26,3 +26,7 @@
     text-decoration: none;
     font-size: 17px;
 }
+.Topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
