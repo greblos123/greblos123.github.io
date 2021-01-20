@@ -1,5 +1,6 @@
 body {
   background-color: #e6e7e8;
+  margin: 0%;
 }
 .Topnav {
   background-color:#353533; 
@@ -18,11 +19,11 @@ body {
   background-color: #4CAF50;
   color: white;
 }
-.grid-container {
+#grid-container {
 display: grid;
-grid-template-columns: auto, auto, auto;
+grid-template-columns: 1fr 2fr 
 }
-.grid-item {
+#grid-item {
 padding: 20px;
 }
 .myTableData {
@@ -56,6 +57,7 @@ padding: 20px;
   font-family: "Times New Roman", "serif";
   background-color: lightblue;
   width: 850px;
+  height: auto;
   border: 5px outset red;
   text-align: center;
   margin-top: 0px;
