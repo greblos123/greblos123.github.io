@@ -1,29 +1,17 @@
-var a = 5;
-var b = 10;
-var sum = a + b;
-console.log(sum)
+var paragraph = document.getElementById("Top");
+var date = new Date();
+var hours = date.getHours();
 
-var differanse = b - a;
-console.log(differanse)
-var kvotient = b / a;
-console.log(kvotient)
-var produkt = a * b;
-console.log(produkt)
-var rest = b % 2;
-console.log(rest)
-
-if (a == b) {
-	console.log("Tallene er like!");
+if(hours >= 5 && hours < 12) {
+paragraph.innerText = "Morgen";
 }
-if (a<b) {
-	console.log("Tallet er mindre!")
+if(hours >= 13 && hours < 17) {
+    paragraph.innerText = "Ettermiddag";
 }
-else {
-		console.log("Tallet er større!")
+if(hours >= 18 && hours < 24) {
+    paragraph.innerText = "Kveld";
+} 
+if(hours >= 0 && hours < 4) {
+    paragraph.innerText = "Natt";
 }
-	
-var i = 0;
-while(i < 10) {
-    console.log(i);
-    i++;
-}
+console.log(hours);
