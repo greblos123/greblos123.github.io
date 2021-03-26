@@ -33,6 +33,11 @@ h1 {
 h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
  }
+ textarea {
+    resize: none;
+    width: 50%;
+    height: 250px;
+  }
  .button {
     background-color: #4CAF50;
     border: none;

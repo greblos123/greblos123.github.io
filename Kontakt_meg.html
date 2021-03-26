@@ -14,6 +14,7 @@
             <a class="active" href="Kontakt_meg.html" target="_self">Kontakt meg</a>
 		</div>
         <div class="Skjema">
+            <form>
             <h1>Kontaktskjema</h1>
             <p>Fornavn:<p1>*</p1></p>
             <input type="text" required>
@@ -24,11 +25,11 @@
         <br>
         <br>
             <p>E-postadresse:<p1>*</p1></p>
-            <input type="text" required>
+            <input type="email" required>
         <br>
         <br>
             <p>Telfeonnr:<p1>*</p1></p>
-            <input type="text" required>
+            <input type="tel" required>
         <br>
         <br>
             <h2>Min henvendelse</h2>
@@ -36,11 +37,14 @@
             <input type="text" required>
         <br>
         <br>
+        <div>
             <p>Melding:<p1>*</p1></p>
-            <input type="text" required>
+            <textarea id="w3review" name="w3review" rows="4" cols="50" required></textarea>
+        </div>
         <br>   
         <br> 
-            <a href="#" class="button">Link Button</a>
+            <input value="Send inn" type="submit">
+        </form>
         </div>
 <footer>
     <p>&#169; 2020 Andreas Smith Solberg</p>
