@@ -45,7 +45,7 @@ padding: 20px;
   font-family: "Times New Roman", "serif";
   text-align: center;
   height: auto;
-  width: 400px;
+  width: 40%;
   padding: 5px;
   float: none;
 }
@@ -65,7 +65,7 @@ padding: 20px;
   color: black;
   font-family: "Times New Roman", "serif";
   background-color: lightblue;
-  width: 850px;
+  width: 100%;
   height: auto;
   border: 5px outset red;
   text-align: center;
@@ -78,8 +78,8 @@ padding: 20px;
 }
 #bilde1 {
   border:thick red;
-  width: 1000px;
-  height: auto;
+  width: 100%;
+  height: 100%;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-right: 0px;
@@ -106,11 +106,14 @@ img{
   float: none;
 }
 footer {
-    background-color:#353533;
-    width:100%;
-    height: 200px;
-    text-align: center;
-    color:white;
-    display: inline-block;
-    vertical-align: bottom;
+  background-color:#353533;
+  width:100%;
+  height: 15%;
+  text-align: center;
+  color:white;
+  display: inline-block;
+  vertical-align: bottom;
+  position:fixed;
+  bottom:0;
+  left:0;
 }
