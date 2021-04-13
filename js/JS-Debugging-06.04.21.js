@@ -18,4 +18,10 @@ console.log(tall1);
 /* C */
 
 var paragraph = document.getElementsById();
-// det skal ikke være s i getElementById() og det må være noe inni ()
+// det skal ikke være s i getElementsById() og det må være noe inni ()
+
+/* D */
+
+var body = document.getElementByTagName("body")[0];
+body.Style.backgroundColor = "red";
+// det skal være s i getElement"s"ByTagName
